@@ -27,4 +27,19 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+
+    // okhttp 网络请求框架
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
+
+    // Gson 对 Json 数据解析框架
+    compile 'com.google.code.gson:gson:2.7'
+    // EventBus 依赖
+    compile 'org.greenrobot:eventbus:3.0.0'
+
+    // 5.0 新特性：RecyclerView 依赖
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+
+    // RxJava 依赖
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
 }
