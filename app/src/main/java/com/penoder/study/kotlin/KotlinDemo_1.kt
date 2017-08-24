@@ -69,4 +69,19 @@ class KotlinDemo_1 {
         println(s1)  // a is 1
         println(s2)   // a was 1, but now is 2
     }
+
+//    fun maxValue(a: Int, b: Int): Int {
+//        if (a > b)
+//            return a
+//        else
+//            return b
+//    }
+    /**
+     * 上下两个采用 条件表达式 要判断ab大小的写法是一致的，但是好像是不支持Java中的三目运算符
+     */
+        fun maxValue(a: Int, b: Int) = if (a > b) a else b
+
+//    fun maxValue(a: Int, b: Int): Int {
+//        return (a > b) ? a : b  // 没有三目运算符？
+//    }
 }
