@@ -7,10 +7,12 @@ package com.penoder.study.kotlin
 class KotlinDemo_2_AboutNPE {
 
     constructor() {
-
+        System.out.println(elvisMethod(null))
     }
 
 
-
-
+    fun elvisMethod(str: String?): String {
+        val value: String = str?.plus("666") ?: "2333"
+        return value
+    }
 }

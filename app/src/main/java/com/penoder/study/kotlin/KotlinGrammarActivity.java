@@ -43,4 +43,8 @@ public class KotlinGrammarActivity extends AppCompatActivity {
         kotlinDemo_1.update();
         Log.i("KotlinGrammarActivity", "onKotlinDemoOne_A: --------- " + kotlinDemo_1.maxValue(6, 8));
     }
+
+    public void onElvisClick(View v) {
+        KotlinDemo_2_AboutNPE npe = new KotlinDemo_2_AboutNPE();
+    }
 }
