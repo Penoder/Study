@@ -1,4 +1,4 @@
-package com.penoder.study.wiget;
+package com.penoder.study.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

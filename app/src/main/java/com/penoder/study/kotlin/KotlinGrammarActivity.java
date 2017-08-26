@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ScrollView;
 import com.penoder.study.R;
+import com.penoder.study.kotlin.program_1.KotlinDemo_1;
 
 public class KotlinGrammarActivity extends AppCompatActivity {
 

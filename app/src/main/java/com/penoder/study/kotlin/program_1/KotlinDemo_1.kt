@@ -1,4 +1,4 @@
-package com.penoder.study.kotlin
+package com.penoder.study.kotlin.program_1
 
 import com.penoder.study.rxJava2.RxDemo_1 as rx_demo    // 导入的类如果名字相同，可以使用 as 设置别名
 
