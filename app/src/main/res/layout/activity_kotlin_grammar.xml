@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.penoder.study.kotlin.KotlinGrammarActivity">
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.penoder.study.kotlin.KotlinGrammarActivity">
 
     <ScrollView
-        android:id="@+id/sv_kotlinDemoOne"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
+            android:id="@+id/sv_kotlinDemoOne"
             android:layout_width="match_parent"
-            android:orientation="vertical"
             android:layout_height="match_parent">
 
-            <Button
+        <LinearLayout
                 android:layout_width="match_parent"
-                android:background="@color/SkyBlue"
-                android:textColor="@color/Black"
-                android:text="Kotlin_Demo_1"
-                android:gravity="center"
-                android:textSize="20sp"
-                android:onClick="onKotlinDemoOne_A"
-                android:layout_height="48dp"/>
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:background="@color/SkyBlue"
+                    android:textColor="@color/Black"
+                    android:text="Kotlin_Demo_1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:onClick="onKotlinDemoOne_A"
+                    android:layout_height="48dp"/>
 
             <EditText
-                android:id="@+id/ed_kotlinDemoOne"
-                android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:maxLines="10"
-                android:focusable="true"
-                android:textSize="18sp"
-                android:visibility="gone"
-                android:textColor="@color/Red"
-                android:layout_gravity="center_vertical"/>
+                    android:id="@+id/ed_kotlinDemoOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:maxLines="10"
+                    android:focusable="true"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    android:textColor="@color/Red"
+                    android:layout_gravity="center_vertical"/>
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="1200dp"
-                android:visibility="gone"/>
+                    android:layout_width="match_parent"
+                    android:layout_height="1200dp"
+                    android:visibility="gone"/>
 
             <Button
-                android:layout_width="match_parent"
-                android:background="@color/SkyBlue"
-                android:textColor="@color/Black"
-                android:text="Null -- NPE $amp Elvis"
-                android:gravity="center"
-                android:textSize="20sp"
-                android:onClick="onKotlinDemoOne_A"
-                android:layout_height="48dp"/>
+                    android:layout_width="match_parent"
+                    android:background="@color/GreenYellow"
+                    android:textColor="@color/Black"
+                    android:text="Null -- NPE"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:onClick="onKotlinNpeClick"
+                    android:layout_height="48dp"/>
 
             <Button
                     android:layout_width="match_parent"

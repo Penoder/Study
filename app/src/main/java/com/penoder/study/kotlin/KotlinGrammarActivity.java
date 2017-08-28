@@ -45,7 +45,15 @@ public class KotlinGrammarActivity extends AppCompatActivity {
         Log.i("KotlinGrammarActivity", "onKotlinDemoOne_A: --------- " + kotlinDemo_1.maxValue(6, 8));
     }
 
-    public void onElvisClick(View v) {
+    public void onKotlinNpeClick(View view) {
+
+    }
+
+    public void onElvisClick(View view) {
         KotlinDemo_2_AboutNPE npe = new KotlinDemo_2_AboutNPE();
+//        Log.i("KotlinGrammarActivity", "onElvisClick: " + npe.elvisMethod(null));
+        Log.i("KotlinGrammarActivity", "onElvisClick: " + npe.elvisMethod("no-null "));
+        Log.i("KotlinGrammarActivity", "onElvisClick: " + npe.elvisMethod(null, 0));
+//        Log.i("KotlinGrammarActivity", "onElvisClick: " + npe.elvisMethod2(null, false));
     }
 }
