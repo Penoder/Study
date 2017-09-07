@@ -63,6 +63,16 @@
                     android:onClick="onElvisClick"
                     android:layout_height="48dp"/>
 
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:background="@color/Sienna"
+                    android:textColor="@color/White"
+                    android:onClick="onLoopClick"
+                    android:text="Loop"/>
+
         </LinearLayout>
 
     </ScrollView>

@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ScrollView;
 import com.penoder.study.R;
+import com.penoder.study.kotlin.loop.ForLoop;
+import com.penoder.study.kotlin.loop.WhenLoop;
 import com.penoder.study.kotlin.program_1.KotlinDemo_1;
 
 public class KotlinGrammarActivity extends AppCompatActivity {
@@ -55,5 +57,16 @@ public class KotlinGrammarActivity extends AppCompatActivity {
         Log.i("KotlinGrammarActivity", "onElvisClick: " + npe.elvisMethod("no-null "));
         Log.i("KotlinGrammarActivity", "onElvisClick: " + npe.elvisMethod(null, 0));
 //        Log.i("KotlinGrammarActivity", "onElvisClick: " + npe.elvisMethod2(null, false));
+    }
+
+    public void onLoopClick(View view) {
+        ForLoop forLoop = new ForLoop();
+        WhenLoop whenLoop = new WhenLoop(1);
+        Log.i("KotlinGrammarActivity", "onLoopClick: -----00000------   " +  whenLoop.methodOne(1));
+        Log.i("KotlinGrammarActivity", "onLoopClick: -----11111------   " +  whenLoop.methodOne(2));
+        Log.i("KotlinGrammarActivity", "onLoopClick: -----22222------   " +  whenLoop.methodOne(3));
+        Log.i("KotlinGrammarActivity", "onLoopClick: -----33333------   " +  whenLoop.methodOne(4));
+        Log.i("KotlinGrammarActivity", "onLoopClick: -----44444------   " +  whenLoop.methodOne(-1));
+        Log.i("KotlinGrammarActivity", "onLoopClick: -----55555------   " +  whenLoop.methodOne(666));
     }
 }
