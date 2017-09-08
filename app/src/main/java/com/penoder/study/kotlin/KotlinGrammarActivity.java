@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ScrollView;
 import com.penoder.study.R;
+import com.penoder.study.kotlin.intelligentTransformation.AsOrMayBeNull;
 import com.penoder.study.kotlin.loop.ForLoop;
 import com.penoder.study.kotlin.loop.WhenLoop;
 import com.penoder.study.kotlin.program_1.KotlinDemo_1;
@@ -68,5 +69,15 @@ public class KotlinGrammarActivity extends AppCompatActivity {
         Log.i("KotlinGrammarActivity", "onLoopClick: -----33333------   " +  whenLoop.methodOne(4));
         Log.i("KotlinGrammarActivity", "onLoopClick: -----44444------   " +  whenLoop.methodOne(-1));
         Log.i("KotlinGrammarActivity", "onLoopClick: -----55555------   " +  whenLoop.methodOne(666));
+    }
+
+    /**
+     * 关于 Kotlin 的 is，as 关键字的对象类型之间的转换
+     * @param view
+     */
+    public void onTransferClick(View view) {
+        AsOrMayBeNull asOrMayBeNull = new AsOrMayBeNull();
+        Log.i("KotlinGrammarActivity", "onTransferClick: ------    " + asOrMayBeNull.methodOne("233333"));
+        Log.i("KotlinGrammarActivity", "onTransferClick: ------    " + asOrMayBeNull.methodOne("中文看你怎么转换成数字"));
     }
 }

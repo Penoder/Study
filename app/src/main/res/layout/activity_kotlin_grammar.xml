@@ -73,6 +73,16 @@
                     android:onClick="onLoopClick"
                     android:text="Loop"/>
 
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:background="@color/MediumSeaGreen"
+                    android:textColor="@color/Black"
+                    android:onClick="onTransferClick"
+                    android:text="Is Or As Transformation"/>
+
         </LinearLayout>
 
     </ScrollView>
