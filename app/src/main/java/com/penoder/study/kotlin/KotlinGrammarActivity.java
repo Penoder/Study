@@ -78,6 +78,6 @@ public class KotlinGrammarActivity extends AppCompatActivity {
     public void onTransferClick(View view) {
         AsOrMayBeNull asOrMayBeNull = new AsOrMayBeNull();
         Log.i("KotlinGrammarActivity", "onTransferClick: ------    " + asOrMayBeNull.methodOne("233333"));
-        Log.i("KotlinGrammarActivity", "onTransferClick: ------    " + asOrMayBeNull.methodOne("中文看你怎么转换成数字"));
+        Log.i("KotlinGrammarActivity", "onTransferClick: ------    " + asOrMayBeNull.methodOne("中文看你怎么转换成数字")); // 直接报错
     }
 }

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="36dp"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/btnMapOperatorOne"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:text="Map"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:background="@color/LightCoral"
+                android:layout_height="56dp"/>
+
+        <Space android:layout_width="36dp" android:layout_height="56dp"/>
+
+        <Button
+                android:id="@+id/btnMapOperatorTwo"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:text="FlatMap"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:background="@color/LightBlue"
+                android:layout_height="56dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="36dp"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/btnMapOperatorThree"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:background="@color/MediumSeaGreen"
+                android:layout_height="56dp"/>
+
+        <Space android:layout_width="36dp" android:layout_height="56dp"/>
+
+        <Button
+                android:id="@+id/btnMapOperatorFour"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:background="@color/MediumTurquoise"
+                android:layout_height="56dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="36dp"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/btnMapOperatorFive"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:background="@color/LightYellow"
+                android:layout_height="56dp"/>
+
+        <Space android:layout_width="36dp" android:layout_height="56dp"/>
+
+        <Button
+                android:id="@+id/btnMapOperatorSix"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textSize="16sp"
+                android:background="@color/GreenYellow"
+                android:layout_height="56dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

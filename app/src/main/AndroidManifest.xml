@@ -20,6 +20,13 @@
         <activity
                 android:name=".kotlin.KotlinGrammarActivity"
                 android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".rxJava2.thread.ThreadDemoActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".rxJava2.transformOperator.OperatorActivity"
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
